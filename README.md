@@ -30,19 +30,19 @@ Voici la structure complète des dossiers et fichiers :
         convert_md.py              <-- Script Python principal pour la conversion
         requirements.txt           <-- Liste des dépendances Python
         README.md                  <-- Documentation du projet
-
+```
 ⚙️ Prérequis
 Outils nécessaires
 
-    Pandoc :
+  Pandoc :
     Installez Pandoc pour permettre la conversion des fichiers Markdown.
     👉 Télécharger Pandoc
 
-    Python 3 :
+ Python 3 :
     Assurez-vous d'avoir Python 3 installé.
     👉 Télécharger Python
 
-    MikTeX ou TeX Live :
+  MikTeX ou TeX Live :
     Nécessaire pour générer des fichiers PDF.
     👉 Installer MiKTeX
 
@@ -71,16 +71,16 @@ python convert_md.py
 
 Placez un fichier .md dans l'un des dossiers suivants selon le format souhaité :
 
-    PDF : pour convertir en PDF.
+   PDF : pour convertir en PDF.
     HTML : pour convertir en HTML.
     DOCX : pour convertir en DOCX.
 
 🔄 Processus de conversion
 
-    Conversion automatique :
+ Conversion automatique :
     Le script détecte le fichier .md ajouté dans un dossier et le convertit dans le format correspondant.
 
-    Organisation des fichiers :
+   Organisation des fichiers :
         Le fichier converti est déplacé dans le sous-dossier correspondant dans Fichier converti :
             PDF converti
             HTML converti
@@ -93,7 +93,7 @@ Placez un fichier .md dans l'un des dossiers suivants selon le format souhaité 
 Déposez un fichier exemple.md dans le dossier PDF.
 Étape 2 : Résultat
 
-    Le fichier exemple.pdf sera généré dans Fichier converti/PDF converti.
+   Le fichier exemple.pdf sera généré dans Fichier converti/PDF converti.
     Le fichier exemple.md sera déplacé dans Fichier d'origine.
 
 💡 Commandes Pandoc utiles
@@ -110,13 +110,13 @@ pandoc exemple.md -o exemple.html
 
 Convertir en DOCX :
 
-    pandoc exemple.md -o exemple.docx
+ pandoc exemple.md -o exemple.docx
 
 🛠️ Personnalisation
 
 Vous pouvez personnaliser le script convert_md.py pour :
 
-    Ajouter des options Pandoc spécifiques (exemple : templates personnalisés).
+  Ajouter des options Pandoc spécifiques (exemple : templates personnalisés).
     Gérer d'autres formats comme EPUB ou LaTeX.
 
 📄 Licence
@@ -140,6 +140,7 @@ Pour toute question ou suggestion, contactez-moi via GitHub.
 git add README.md
 git commit -m "Ajout du fichier README avec description du projet"
 git push origin main
+```
 
 Votre fichier README.md apparaîtra directement sur votre page GitHub pour que les utilisateurs puissent comprendre et utiliser votre projet facilement. 🚀
 
